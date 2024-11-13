@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;  /* Modify the font family */
+    font-size: 16px;                /* Modify the font size */
+}
+header {
+    background-color: #4CAF50;  /* Modify the background color */
+}
+nav {
+    background-color: #7c7c7c;  /* Modify the background color */
+}
+main {
+    background-color: #f4f4f4;  /* Modify the background color */
+    font-size: 18px;            /* Modify the font size */
+}
+footer {
+    background-color: #ec3d3d;  /* Modify the background color */
+}
+li {
+    display: inline-block;  /* Modify the display property */
+    width: 200px;           /* Modify the width property */
+}
+h1 {
+    text-align: center;      /* Modify text alignment */
+    font-family: 'Georgia', serif;  /* Modify font family */
+    color: #0c1620;          /* Modify text color */
+}
+p {
+    line-height: 1.6;  /* Modify the line height */
+}
