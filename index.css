@@ -6,8 +6,12 @@ header {
     background-color: #4CAF50;  /* Modify the background color */
 }
 nav {
-    background-color: #7c7c7c;  /* Modify the background color */
-}
+    display: inline-block;
+    width: 80%;
+  }
+  nav img {
+    width: 10%;
+  }
 main {
     background-color: #f4f4f4;  /* Modify the background color */
     font-size: 18px;            /* Modify the font size */
@@ -27,3 +31,24 @@ h1 {
 p {
     line-height: 1.6;  /* Modify the line height */
 }
+.content{
+    height: 1000px;
+}
+
+.grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content:  space-evenly;
+    align-items: start;
+    row-gap: 20px; /* Adjust this value as needed */
+  }
+  .grid img {
+    width: 100%;
+  }
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Or adjust based on desired layout */
+  }
+    

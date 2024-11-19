@@ -6,21 +6,24 @@
 <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-  <header>
+    <a href="#main-content" class="skip-link">Skip to Main content</a>
         <h1>Welcome to My Sample Web Page</h1>
-        <nav><ul>
+        <nav>
+            <img src="./assets/image1.jpg" alt="Description of the image">
+
+            <!-- <img src="./assets/image1.jpg"/> -->
+            <ul>
             <li><a href="index.html">index</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="#gallery.html">Gallery</a></li>
                 <li><a href="#contact.html">Contact</a></li>
-            </ul></nav></header>
-
-    <main id="main">
-        <section id="about">
+            </ul></nav>
+    <main id="content">
+        <div id="about">
             <h2>About This Page</h2>
             <p>This page demonstrates the use of semantic css elements and basic web development practices.</p>
-        </section>
-        <section id="gallery">
+        </div>
+        <section class="contact">
             <h2>Numbers</h2>
              <ul>
                 <li>one</li>
@@ -30,10 +33,38 @@
         </section>
         <p>three more pages</p>
     </main>
+    <div id ="main-content">
+        <div id="gallery">
+            <h2>Main content</h2>
+            <p>This page includes main content demonstrates the use of semantic css elements and basic web development practices.</p>
+        </div>
+        <section class="contact">
+            <h2>Numbers</h2>
+             <ul>
+                <li>one</li>
+                <li>two</li>
+                <li>three</li>
+            </ul>
+        </section>
+        <p>three more pages</p>
+    </div>
+    <div class="grid">
+        <!-- <img src="./assets/image1.jpg"/> -->
+        <img src="./assets/image1.jpg" alt="Description of the image">
+
+        <div>Column 2 Content</div>
+        <div>Column 1 Content</div>
+        <div>Column 2 Content</div>
+    </div>
+    <div class="flex">
+        <div>Column 1 Content</div>
+        <div>Column 2 Content</div> 
+    </div>
+
     <footer id="contact">
         <h2>Contact Information</h2>
         <address>
-            For more details, visit the official website</a>.
+            For more details, visit the official website
         </address>
     </footer>
 </body>
